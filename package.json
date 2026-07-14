@@ -67,7 +67,12 @@
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true
     },
-    "publish": "never"
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://example.com/downloads"
+      }
+    ]
   },
   "devDependencies": {
     "electron": "^28.3.3",
